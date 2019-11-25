@@ -1,0 +1,4 @@
+default:
+  security:
+    context: /authentication/api/authentication
+    includes: /*

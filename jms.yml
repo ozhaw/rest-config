@@ -1,0 +1,16 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    pool:
+      enabled: true
+      max-connections: 5000
+  jms:
+    cache:
+      session-cache-size: 5
+
+pusher:
+  instanceId: 9f9f0337-33b7-4ce6-afb3-0585c253506d
+  secret:
+    key: C0D22731B2BF77682E2ADB4BD3BE2620D2D30AD0FCE5A71DD0DAA709E6CE825F
