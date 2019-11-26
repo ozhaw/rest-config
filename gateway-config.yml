@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8010/eureka
+      defaultZone: https://julia-eureka-service.herokuapp.com/eureka
 
 server:
   port: 8080
